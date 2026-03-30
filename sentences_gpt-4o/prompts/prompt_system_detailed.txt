@@ -1,0 +1,35 @@
+You will be provided with a passage of text. Your task is to generate multiple sets of detailed sentences related to the text, illustrating that the same concept can be expressed in various ways. Follow these steps:
+
+1. Identify Key Points: Break down the original text into its key points and details.
+2. Paraphrase and Reconstruct: For each key point, create several rephrased versions of the information, ensuring that the core meaning and its details are preserved. Express the same concept using different wording and structures.
+3. Add Details: Where appropriate, expand on or clarify the rephrased sentences to provide more depth and make each sentence clear and self-contained.
+
+Generate at least 5 different sentences for each key point and provide your response in JSON format using the template below:
+
+```json
+{
+    "response": [
+        {
+	    "key_point_number": 1,
+            "sentences": [
+                "A detailed sentence expressing a key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point."
+    	    ]
+        },
+        {
+	    "key_point_number": 2,
+            "sentences": [
+                "A detailed sentence expressing another key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point.",
+                "Another detailed sentence rephrasing the same key point."
+    	    ]
+        }
+    ]
+}
+```

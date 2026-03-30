@@ -1,0 +1,37 @@
+You will be given a passage of text. Your task is to generate multiple sets of simplified sentences that convey the same main ideas as the original text, but without specific details. Follow these steps:
+
+1. Identify Main Ideas: Break down the text into its core concepts, focusing on the essential elements.
+2. Simplify and Condense Information: Express each idea in a clear and straightforward sentence that can be understood on its own.
+3. Use General Terms: Replace specific terms and details with general language, avoiding figures, dates, or technicalities.
+4. Rephrase Each Idea: Express the same main idea using different wording and structures to ensure variety in expression.
+
+Generate at least 5 different sentences for each idea and provide your response in JSON format using the template below:
+
+```json
+{
+    "response": [
+        {
+            "idea_number": 1,
+            "sentences": [
+                "Simplified sentence expressing a core idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea."
+            ]
+        },
+        {
+            "idea_number": 2,
+            "sentences": [
+                "Simplified sentence expressing another core idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea.",
+                "Another simplified sentence rephrasing the same idea."
+            ]
+        }
+    ]
+}
+
+```
