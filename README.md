@@ -1,8 +1,8 @@
-# Avalanche Text Analysis Pipeline
+# Analysis Pipeline of Free Recall Data
 
 ## Overview
 
-A cutting-edge natural language processing pipeline for analyzing avalanche-related text, powered by PyTorch and advanced machine learning techniques.
+A natural language processing pipeline for analyzing free recall of avalanche-related text.
 
 ## Key Features
 
